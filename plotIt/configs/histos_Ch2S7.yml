@@ -1,0 +1,307 @@
+'h_LeptonPt_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_LeptonEta_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_LeptonRelIso_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_nJets_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_nbJets_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_TransverseMass_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetPt_0_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetEta_0_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_bJetDiscriminator_0_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetPt_1_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetEta_1_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_bJetDiscriminator_1_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetPt_2_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetEta_2_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_bJetDiscriminator_2_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetPt_3_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetEta_3_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_bJetDiscriminator_3_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetPt_4_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetEta_4_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_bJetDiscriminator_4_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetPt_5_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_JetEta_5_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_bJetDiscriminator_5_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoAddbJetPt_1_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoAddbJetCSV_1_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoAddbJetPt_2_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoAddbJetCSV_2_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoAddbJetDeltaR_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoAddbJetInvMass_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin0_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin1_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin2_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin3_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin4_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin5_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin0_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin1_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin2_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin3_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin4_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin5_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin6_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin7_Ch2_S7':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true

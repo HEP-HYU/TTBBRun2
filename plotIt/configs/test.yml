@@ -1,0 +1,204 @@
+'h_LeptonPt_Ch0_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nJets_Ch0_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nbJets_Ch0_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_LeptonPt_Ch0_S4':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nJets_Ch0_S4':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nbJets_Ch0_S4':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_LeptonPt_Ch0_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nJets_Ch0_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nbJets_Ch0_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_LeptonPt_Ch1_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nJets_Ch1_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nbJets_Ch1_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_LeptonPt_Ch1_S4':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nJets_Ch1_S4':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nbJets_Ch1_S4':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_LeptonPt_Ch1_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nJets_Ch1_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+'h_nbJets_Ch1_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+
+'h_mindR_RecoAddbJetDeltaR_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoAddbJetInvMass_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+
+'h_mindR_RecoDeltaRvsCSV_bin0_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin1_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin2_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin3_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin4_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoDeltaRvsCSV_bin5_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin0_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin1_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin2_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin3_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin4_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin5_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin6_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+
+'h_mindR_RecoInvMassvsCSV_bin7_Ch2_S8':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  show-ratio: true
+  #log-y: true
+

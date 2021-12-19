@@ -1,0 +1,80 @@
+'h_nJets_Ch0_S0':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+  for-yields: true
+  yields-table-order: 0
+  yields-title: 'nJetsCh0S0'
+
+'h_nJets_Ch0_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+  for-yields: true
+  yields-table-order: 1
+  yields-title: 'nJetsCh0S1'
+
+'h_nJets_Ch0_S2':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+  for-yields: true
+  yields-table-order: 2
+  yields-title: 'nJetsCh0S2'
+
+'h_nJets_Ch0_S3':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+  for-yields: true
+  yields-table-order: 3
+  yields-title: 'nJetsCh0S3'
+
+'h_nJets_Ch1_S0':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+  for-yields: true
+  yields-table-order: 4
+  yields-title: 'nJetsCh1S0'
+
+'h_nJets_Ch1_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+  for-yields: true
+  yields-table-order: 5
+  yields-title: 'nJetsCh1S1'
+
+'h_nJets_Ch1_S2':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+  for-yields: true
+  yields-table-order: 6
+  yields-title: 'nJetsCh1S2'
+
+'h_nJets_Ch1_S3':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+  for-yields: true
+  yields-table-order: 7
+  yields-title: 'nJetsCh1S3'
+

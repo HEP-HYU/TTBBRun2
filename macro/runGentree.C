@@ -1,4 +1,4 @@
-#include "../include/histBook.h"
+#include "histBook.h"
 
 void runGentree(std::string input_path, std::string output_path){
   TFile *f_in = TFile::Open(Form("%s/TTLJ_PowhegPythia_ttbb.root", input_path.c_str()));

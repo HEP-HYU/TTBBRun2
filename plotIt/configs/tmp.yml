@@ -1,0 +1,38 @@
+configuration:
+  width: 450 
+  height: 450
+  luminosity-label: '%1$.1f fb^{-1} at #sqrt{s} = 13 TeV'
+  experiment: " CMS"
+  #extra-label: "Preliminary"
+  extra-label: "Work in Progress"
+  root: ''
+  luminosity: 35922 
+  luminosity-error: 0.025
+  error-fill-style: 3154
+  error-fill-color: "#ee556270"
+  ratio-fit-error-fill-style: 1001
+  ratio-fit-error-fill-color: "#aa556270"
+  ratio-fit-line-color: "#0B486B"
+  blinded-range-fill-color: "#29556270"
+  blinded-range-fill-style: 1001
+  yields-table-align: v
+  book-keeping-file: 'plots.root'
+  yields-table-numerical-precision-yields: 2
+
+files: 
+  include: ['files16.yml'] # For basic plots
+
+systematics:
+
+plots:
+  #include: ['histos.yml'] # Basic plot list
+  include: ['test.yml'] # Basic plot list
+
+legend:
+  position: [0.18, 0.68, 0.92, 0.89]
+  columns: 5
+
+groups:
+  include: ['groups.yml']
+
+#  - gamma: {type: ln, prior: 1.072, pretty-name: "Gamma"}  # Log-normal systematics, +7.2%, -2.97%, exp(+/- 1 * log(prior))

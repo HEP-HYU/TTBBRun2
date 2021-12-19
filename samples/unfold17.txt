@@ -1,0 +1,10 @@
+baseDir /home/seohyun/work/ttbb/ttbbRun2_dev/output
+prefitDir root17
+postfitDir post17
+outputDir unfold17
+discriminant bb_2D_dRvsM
+group data_obs ttbb ttbj ttcc ttLF ttbkg other qcd
+ttbb TTLJ_PowhegPythia_ttbb
+matrix TTLJ_PowhegPythia_ttbb
+recojet mindR
+genjet mindR 

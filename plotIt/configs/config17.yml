@@ -5,10 +5,10 @@ configuration:
   experiment: " CMS"
   #extra-label: "Preliminary"
   extra-label: "Work in Progress"
-  root: ''
+  root: './output/post17'
   luminosity: 41529
-  luminosity-error: 0.00
-  #luminosity-error: 0.025
+  #luminosity-error: 0.00
+  luminosity-error: 0.023
   error-fill-style: 3154
   error-fill-color: "#ee556270"
   ratio-fit-error-fill-style: 1001
@@ -21,76 +21,104 @@ configuration:
   yields-table-numerical-precision-yields: 2
 
 files: 
-  include: ['files17.yml']
+  include: ['files17.yml'] # For basic plots
+#  include: ['files/files17_qcd.yml'] # For QCD region plots
+#  include: ['files/files17_test.yml'] # Drawing without systematics
 
 systematics:
 #  - ttbb_xsec:     {type: const, value: 1.055, on: 'hist_ttbb.root'}
-#  - ttbj_xsec:     {type: const, value: 1.055, on: 'hist_ttbj.root'}
-#  - ttcc_xsec:     {type: const, value: 1.055, on: 'hist_ttcc.root'}
-#  - ttlf_xsec:     {type: const, value: 1.055, on: 'hist_ttLF.root'}
-#  - ttother_xsec:  {type: const, value: 1.055, on: 'hist_ttother.root'}
-#  - ttbkg_xsec:    {type: const, value: 1.055, on: 'hist_ttbkg.root'}
+#  - ttbj_xsec:     {type: const, value: 1.055, on: 'hist_TTLJ_PowhegPythia_ttbj.root'}
+#  - ttcc_xsec:     {type: const, value: 1.055, on: 'hist_TTLJ_PowhegPythia_ttcc.root'}
+#  - ttlf_xsec:     {type: const, value: 1.055, on: 'hist_TTLJ_PowhegPythia_ttLF.root'}
+#  - ttother_xsec:  {type: const, value: 1.055, on: 'hist_TTLJ_PowhegPythia_ttother.root'}
+#  - ttjjbkg_xsec:  {type: const, value: 1.055, on: 'hist_TTJJ_PowhegPythiaBkg.root'}
+#  - ttljbkg_xsec:  {type: const, value: 1.055, on: 'hist_TTLJ_PowhegPythiaBkg.root'}
+#  - ttllbkg_xsec:  {type: const, value: 1.055, on: 'hist_TTLL_PowhegPythiaBkg.root'}
 #  - ttbb_xsec2:    {type: const, value: 1.3, on: 'hist_ttbb.root'}
-#  - ttcc_xsec2:    {type: const, value: 1.5, on: 'hist_ttcc.root'}
-#  - other_xsec1:   {type: const, value: 1.1, on: 'hist_zjets.root'}
-#  - other_xsec2:   {type: const, value: 1.1, on: 'hist_zjets10to50.root'}
-#  - other_xsec3:   {type: const, value: 1.1, on: 'hist_wjets.root'}
-#  - other_xsec4:   {type: const, value: 1.1, on: 'hist_ww.root'}
-#  - other_xsec5:   {type: const, value: 1.1, on: 'hist_wz.root'}
-#  - other_xsec6:   {type: const, value: 1.1, on: 'hist_zz.root'}
-#  - other_xsec7:   {type: const, value: 1.1, on: 'hist_tchannel.root'}
-#  - other_xsec8:   {type: const, value: 1.1, on: 'hist_tbarchannel.root'}
-#  - other_xsec9:   {type: const, value: 1.1, on: 'hist_tWchannel.root'}
-#  - other_xsec10:  {type: const, value: 1.1, on: 'hist_tbarWchannel.root'}
-#  - other_xsec11:  {type: const, value: 1.1, on: 'hist_ttH.root'}
-#  - other_xsec12:  {type: const, value: 1.1, on: 'hist_ttW.root'}
-#  - other_xsec13:  {type: const, value: 1.1, on: 'hist_ttZ.root'}
-#  - pu
-#  - musf
-#  - musf
-#  - jec
-#  - jer
-#  - scale: {type: shape, on: 'hist_ttbb.root'}
-#  - scale: {type: shape, on: 'hist_ttbj.root'}
-#  - scale: {type: shape, on: 'hist_ttcc.root'}
-#  - scale: {type: shape, on: 'hist_ttLF.root'}
-#  - scale: {type: shape, on: 'hist_ttother.root'}
-#  - scale: {type: shape, on: 'hist_ttbkg.root'}
-#  - scale: {type: shape, on: 'hist_ttH.root'}
-#  - scale: {type: shape, on: 'hist_ttW.root'}
-#  - scale: {type: shape, on: 'hist_ttZ.root'}
-#  - ps: {type: shape, on: 'hist_ttbb.root'}
-#  - ps: {type: shape, on: 'hist_ttbj.root'}
-#  - ps: {type: shape, on: 'hist_ttcc.root'}
-#  - ps: {type: shape, on: 'hist_ttLF.root'}
-#  - ps: {type: shape, on: 'hist_ttother.root'}
-#  - ps: {type: shape, on: 'hist_ttbkg.root'}
-#  - hdamp: {type: shape, on: 'hist_ttbb.root'}
-#  - hdamp: {type: shape, on: 'hist_ttbj.root'}
-#  - hdamp: {type: shape, on: 'hist_ttcc.root'}
-#  - hdamp: {type: shape, on: 'hist_ttLF.root'}
-#  - hdamp: {type: shape, on: 'hist_ttother.root'}
-#  - pdf: {type: shape, on: 'hist_ttbb.root'}
-#  - pdf: {type: shape, on: 'hist_ttbj.root'}
-#  - pdf: {type: shape, on: 'hist_ttcc.root'}
-#  - pdf: {type: shape, on: 'hist_ttlf.root'}
-#  - pdf: {type: shape, on: 'hist_ttother.root'}
-#  - TuneCP5: {type: shape, on: 'hist_ttbb.root'}
-#  - TuneCP5: {type: shape, on: 'hist_ttbj.root'}
-#  - TuneCP5: {type: shape, on: 'hist_ttcc.root'}
-#  - TuneCP5: {type: shape, on: 'hist_ttLF.root'}
-#  - TuneCP5: {type: shape, on: 'hist_ttother.root'}
-#  - lf
-#  - hf
-#  - lfstat1
-#  - lfstat2
-#  - hfstat1
-#  - hfstat2
-#  - cferr1
-#  - cferr2
+#  - ttcc_xsec2:    {type: const, value: 1.5, on: 'hist_TTLJ_PowhegPythia_ttcc.root'}
+#  - other_xsec1:   {type: const, value: 1.1, on: 'hist_ZJets_M50_aMCatNLOPythia.root'}
+#  - other_xsec2:   {type: const, value: 1.1, on: 'hist_ZJets_M10to50_MadgraphPythia.root'}
+#  - other_xsec3:   {type: const, value: 1.1, on: 'hist_WJetsToLNu_MadgraphPythia.root'}
+#  - other_xsec4:   {type: const, value: 1.1, on: 'hist_WW_Pythia.root'}
+#  - other_xsec5:   {type: const, value: 1.1, on: 'hist_WZ_Pythia.root'}
+#  - other_xsec6:   {type: const, value: 1.1, on: 'hist_ZZ_Pythia.root'}
+#  - other_xsec7:   {type: const, value: 1.1, on: 'hist_SingleTop_t_PowhegPythia.root'}
+#  - other_xsec8:   {type: const, value: 1.1, on: 'hist_SingleTop_tW_PowhegPythia.root'}
+#  - other_xsec9:   {type: const, value: 1.1, on: 'hist_SingleTop_s_aMCatNLOPythia.root'}
+#  - other_xsec10:  {type: const, value: 1.1, on: 'hist_SingleTbar_t_PowhegPythia.root'}
+#  - other_xsec11:  {type: const, value: 1.1, on: 'hist_SingleTbar_tW_PowhegPythia.root'}
+#  - other_xsec12:  {type: const, value: 1.1, on: 'hist_ttHToNonbb_PowhegPythia.root'}
+#  - other_xsec13:  {type: const, value: 1.1, on: 'hist_ttHTobb_PowhegPythia.root'}
+#  - other_xsec14:  {type: const, value: 1.1, on: 'hist_ttWToLNu_aMCatNLOMadspinPythia.root'}
+#  - other_xsec15:  {type: const, value: 1.1, on: 'hist_ttWToQQ_aMCatNLOMadspinPythia.root'}
+#  - other_xsec15:  {type: const, value: 1.1, on: 'hist_ttZToLLNuNu_aMCatNLOMadspinPythia.root'}
+#  - other_xsec16:  {type: const, value: 1.1, on: 'hist_ttZToQQ_aMCatNLOMadspinPythia.root'}
+  - pu
+  - muid
+  - muiso
+  - mutrg
+  - elid
+  - elreco
+  - elzvtx
+  - eltrg
+  - jec
+  - jer
+  - lf
+  - hf
+  - lfstat1
+  - lfstat2
+  - hfstat1
+  - hfstat2
+  - cferr1
+  - cferr2
+  - prefire
+  - sw: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttbb.root'}
+  - sw: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttbj.root'}
+  - sw: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttcc.root'}
+  - sw: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttLF.root'}
+  - sw: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttother.root'}
+  - sw: {type: shape, on: 'hist_TTJJ_PowhegPythiaBkg.root'}
+  - sw: {type: shape, on: 'hist_TTLJ_PowhegPythiaBkg.root'}
+  - sw: {type: shape, on: 'hist_TTLL_PowhegPythiaBkg.root'}
+  - ps: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttbb.root'}
+  - ps: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttbj.root'}
+  - ps: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttcc.root'}
+  - ps: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttLF.root'}
+  - ps: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttother.root'}
+  - ps: {type: shape, on: 'hist_TTJJ_PowhegPythiaBkg.root'}
+  - ps: {type: shape, on: 'hist_TTLJ_PowhegPythiaBkg.root'}
+  - ps: {type: shape, on: 'hist_TTLL_PowhegPythiaBkg.root'}
+  - hdamp: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttbb.root'}
+  - hdamp: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttbj.root'}
+  - hdamp: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttcc.root'}
+  - hdamp: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttLF.root'}
+  - hdamp: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttother.root'}
+  - hdamp: {type: shape, on: 'hist_TTJJ_PowhegPythiaBkg.root'}
+  - hdamp: {type: shape, on: 'hist_TTLJ_PowhegPythiaBkg.root'}
+  - hdamp: {type: shape, on: 'hist_TTLL_PowhegPythiaBkg.root'}
+  - pdf: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttbb.root'}
+  - pdf: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttbj.root'}
+  - pdf: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttcc.root'}
+  - pdf: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttLf.root'}
+  - pdf: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttother.root'}
+  - pdf: {type: shape, on: 'hist_TTJJ_PowhegPythiaBkg.root'}
+  - pdf: {type: shape, on: 'hist_TTLJ_PowhegPythiaBkg.root'}
+  - pdf: {type: shape, on: 'hist_TTLL_PowhegPythiaBkg.root'}
+  - tune: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttbb.root'}
+  - tune: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttbj.root'}
+  - tune: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttcc.root'}
+  - tune: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttLF.root'}
+  - tune: {type: shape, on: 'hist_TTLJ_PowhegPythia_ttother.root'}
+  - tune: {type: shape, on: 'hist_TTJJ_PowhegPythiaBkg.root'}
+  - tune: {type: shape, on: 'hist_TTLJ_PowhegPythiaBkg.root'}
+  - tune: {type: shape, on: 'hist_TTLL_PowhegPythiaBkg.root'}
 
 plots:
-  include: ['histos_ttlj.yml']
+  #include: ['histos.yml'] # Basic plot list
+  include: ['histos_Ch2S7.yml']
+  #  include: ['test.yml'] # Basic plot list
+#  include:  ['histos/histos_qcd.yml'] # QCD region plot list
+#  include:  ['histos/histos_yields.yml'] # nJet hist only
 
 legend:
   position: [0.18, 0.73, 0.92, 0.89]

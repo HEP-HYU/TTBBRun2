@@ -1,0 +1,9 @@
+prefitDir /home/seohyun/work/ttbb/ttbbRun2_dev/output/root16_post
+postfitDir /home/seohyun/work/ttbb/ttbbRun2_dev/output/post16
+outputDir /home/seohyun/work/ttbb/ttbbRun2_dev/output/unfold16
+discriminant bb_2D_dRvsM
+group data_obs ttbb ttbj ttcc ttLF ttbkg other qcd
+ttbb TTLJ_PowhegPythia_ttbbFilter_ttbb
+matrix TTLJ_PowhegPythia_ttbb
+recoMode mindR
+genMode mindR

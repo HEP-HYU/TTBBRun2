@@ -10,11 +10,11 @@ ZJets_M50_aMCatNLOPythia 6225.42 22 #000099 ZJets
 ZJets_M10to50_MadgraphPythia 18610.0 23 #000099 ZJets
 WZ_Pythia 47.13 20 #00cccc VV
 WW_Pythia 118.7 19 #00cccc VV
-WJetsToLNu_MadgraphPythia 61526.7 24 #ff9933 WJets
-W4JetsToLNu_MadgraphPythia 544.3 -25 #ff9933 WJets
-W3JetsToLNu_MadgraphPythia 992.5 -26 #ff9933 WJets
-W2JetsToLNu_MadgraphPythia 2793 -27 #ff9933 WJets
-W1JetsToLNu_MadgraphPythia 9625 -28 #ff9933 WJets
+WJetsToLNu_MadgraphPythia 61526.7 -24 #ff9933 WJets
+W4JetsToLNu_MadgraphPythia 544.3 25 #ff9933 WJets
+W3JetsToLNu_MadgraphPythia 992.5 26 #ff9933 WJets
+W2JetsToLNu_MadgraphPythia 2793 27 #ff9933 WJets
+W1JetsToLNu_MadgraphPythia 9625 28 #ff9933 WJets
 TTLL_PowhegPythiaBkg 88.29 5 #ff6666 ttbkg
 TTLJ_PowhegPythia_ttother 365.34 4 #ff6666 ttbkg
 TTLJ_PowhegPythia_ttcc 365.34 2 #990000 ttcc

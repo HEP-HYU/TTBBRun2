@@ -1,0 +1,379 @@
+'h_LeptonPt_Ch0_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonEta_Ch0_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonRelIso_Ch0_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nJets_Ch0_S0':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nbJets_Ch0_S0':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_TransverseMass_Ch0_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonPt_Ch0_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonEta_Ch0_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonRelIso_Ch0_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nJets_Ch0_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nbJets_Ch0_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_TransverseMass_Ch0_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonPt_Ch0_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonEta_Ch0_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonRelIso_Ch0_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nJets_Ch0_S2':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nbJets_Ch0_S2':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_TransverseMass_Ch0_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonPt_Ch1_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonEta_Ch1_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonRelIso_Ch1_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nJets_Ch1_S0':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nbJets_Ch1_S0':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_TransverseMass_Ch1_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonPt_Ch1_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonEta_Ch1_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonRelIso_Ch1_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nJets_Ch1_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nbJets_Ch1_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_TransverseMass_Ch1_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonPt_Ch1_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonEta_Ch1_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonRelIso_Ch1_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nJets_Ch1_S2':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nbJets_Ch1_S2':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_TransverseMass_Ch1_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonPt_Ch2_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonEta_Ch2_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonRelIso_Ch2_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nJets_Ch2_S0':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nbJets_Ch2_S0':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_TransverseMass_Ch2_S0':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonPt_Ch2_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonEta_Ch2_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonRelIso_Ch2_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nJets_Ch2_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nbJets_Ch2_S1':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_TransverseMass_Ch2_S1':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonPt_Ch2_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonEta_Ch2_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_LeptonRelIso_Ch2_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nJets_Ch2_S2':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_nbJets_Ch2_S2':
+  y-axis: "Events"
+  y-axis-format: "%1%"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+'h_TransverseMass_Ch2_S2':
+  y-axis: "Events"
+  y-axis-format: "%1% / %2$.2f"
+  save-extensions: ['pdf']
+  log-y: true
+  show-ratio: true
+
+

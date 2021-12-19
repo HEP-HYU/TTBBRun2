@@ -26,7 +26,7 @@
 #include <fstream>
 #include <iostream>
 
-#include "/home/seohyun/work/ttbb/ttbbRun2_dev/include/histBook.h"
+#include "/home/seohyun/work/ttbb/ttbbRun2/macro/histBook.h"
 
 class MyAnalysis : public TSelector {
 public :
@@ -44,23 +44,23 @@ public :
    TTreeReaderArray<float>    pdfweight         = {fReader, "PUWeight"};
    TTreeReaderArray<float>    scaleweight       = {fReader, "PUWeight"};
    TTreeReaderArray<float>    psweight          = {fReader, "PUWeight"};
-   //TTreeReaderArray<double>   prefireweight     = {fReader, "lepton_eta"};
+   TTreeReaderArray<double>   prefireweight     = {fReader, "prefireweight"};
    TTreeReaderValue<Float_t>  MET               = {fReader, "MET"};
    TTreeReaderValue<Float_t>  MET_phi           = {fReader, "MET_phi"};
-   TTreeReaderValue<Float_t>  lepton_pT         = {fReader, NULL};
+   TTreeReaderValue<Float_t>  lepton_pT         = {fReader, "lepton_pt"};
    TTreeReaderValue<Float_t>  lepton_eta        = {fReader, "lepton_eta"};
    TTreeReaderValue<Float_t>  lepton_phi        = {fReader, "lepton_phi"};
-   TTreeReaderValue<Float_t>  lepton_E          = {fReader, NULL};
+   TTreeReaderValue<Float_t>  lepton_E          = {fReader, "lepton_e"};
    TTreeReaderValue<Float_t>  lepton_relIso     = {fReader, "lepton_relIso"};
    TTreeReaderValue<bool>     lepton_isIso      = {fReader, "lepton_isIso"};
    TTreeReaderArray<float>    lepton_SF         = {fReader, "lepton_SF"};
-   TTreeReaderArray<float>    jet_pT            = {fReader, NULL};
+   TTreeReaderArray<float>    jet_pT            = {fReader, "jet_pt"};
    TTreeReaderArray<float>    jet_eta           = {fReader, "jet_eta"};
    TTreeReaderArray<float>    jet_phi           = {fReader, "jet_phi"};
-   TTreeReaderArray<float>    jet_E             = {fReader, NULL};
+   TTreeReaderArray<float>    jet_E             = {fReader, "jet_e"};
    TTreeReaderArray<int>      jet_index         = {fReader, "jet_index"};
-   TTreeReaderArray<float>    jet_CSV           = {fReader, NULL};
-   TTreeReaderArray<float>    jet_SF_CSV_30     = {fReader, NULL};
+   TTreeReaderArray<float>    jet_CSV           = {fReader, "jet_deepCSV"};
+   TTreeReaderArray<float>    jet_SF_CSV_30     = {fReader, "jet_SF_deepCSV_30"};
    TTreeReaderArray<float>    jet_JES_Up        = {fReader, "jet_JES_Up"};
    TTreeReaderArray<float>    jet_JES_Down      = {fReader, "jet_JES_Down"};
    TTreeReaderArray<float>    jet_JER_Up        = {fReader, "jet_JER_Up"};
@@ -106,15 +106,11 @@ public :
    TString option;
    TString process;
    
-   int nevt = 0;
-   
    std::vector<std::string> v_syst;
 
-   std::vector<HistoBook *> h_control;
-   std::vector<HistoBook *> h_matrix;
-   std::vector<HistoBook *> h_split;
+   std::vector<HistoBook *> histBook;
 
-   TH1D *h_bSF[3][4];
+   TH1D *h_bSF[nChannel][nStep];
 };
 
 #endif
